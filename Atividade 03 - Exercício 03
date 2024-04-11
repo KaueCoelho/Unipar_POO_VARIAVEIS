@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+
+        Scanner notas = new Scanner (System.in);
+
+        System.out.print("Informe a primeira nota: ");
+        double Nota1 = notas.nextDouble();
+        System.out.print("Informe a segunda nota: ");
+        double Nota2 = notas.nextDouble();
+
+        notas.close();
+        System.out.println("Media final: " + (Nota1+Nota2)/2 );
+
+    }
+}
