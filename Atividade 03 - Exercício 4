@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+
+        Scanner div = new Scanner (System.in);
+
+        System.out.print("Informe a primeira nota: ");
+        double Nota1 = div.nextDouble();
+        System.out.print("Informe a segunda nota: ");
+        double Nota2 = div.nextDouble();
+        System.out.print("Informe a terceira nota: ");
+        double Nota3 = div.nextDouble();
+        System.out.print("Informe a quarta nota: ");
+        double Nota4 = div.nextDouble();
+
+        div.close();
+        System.out.println("Valor: " + (Nota1+Nota2+Nota3+Nota4)/4 );
+
+    }
+}
