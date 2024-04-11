@@ -2,14 +2,14 @@ import java.util.Scanner;
 public class FazerMedia {
     public static void main(String[] args){
 
-        Scanner soma = new Scanner (System.in);
+        Scanner subtracao = new Scanner (System.in);
 
         System.out.print("Informe o primeiro valor: ");
-        int Numero1 = soma.nextInt();
+        int Numero1 = subtracao.nextInt();
         System.out.print("Informe o segundo valor: ");
-        int Numero2 = soma.nextInt();
+        int Numero2 = subtracao.nextInt();
 
-        soma.close();
+        subtracao.close();
         System.out.println("O valor e: " + (Numero1-Numero2) );
 
     }
