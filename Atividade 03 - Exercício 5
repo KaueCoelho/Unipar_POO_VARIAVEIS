@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+
+        Scanner conta = new Scanner (System.in);
+
+        System.out.print("Informe o primeiro valor: ");
+        double Numero1 = conta.nextDouble();
+        System.out.print("Informe o segundo valor: ");
+        double Numero2 = conta.nextDouble();
+
+        conta.close();
+        System.out.println("O valor e: " + (Numero1+Numero2) );
+        System.out.println("O valor e: " + (Numero1-Numero2) );
+        System.out.println("O valor e: " + (Numero1/Numero2) );
+        System.out.println("O valor e: " + (Numero1*Numero2) );
+
+    }
+}
