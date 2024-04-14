@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Verificador {
+    public static void main(String[] args){
+
+    Scanner scanner = new Scanner (System.in);
+    
+    System.out.println("Insira o primeiro numero: ");
+    int N1 = scanner.nextInt();
+    System.out.println("Insira o segundo numero: ");
+    int N2 = scanner.nextInt();
+    
+    scanner.close();
+    
+    if(N1 > N2 == true){
+        System.out.println(N1 + " e o maior!");
+    } else{
+        System.out.println(N2 + " e o maior!");
+        }
+    }
+}
